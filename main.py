@@ -23,4 +23,4 @@ for d in reversed(range(365)):
 
     result = str((len(response.json())))
 
-    print(len(result))
+    print >> fcsv, date_current, ",", result
